@@ -578,7 +578,7 @@
                 const formattedPrompt = formatHistoryForAPI(message);
                 
                 // Send the formatted history to your API
-                let response = await fetch(`https://oppsshitt.infinityfreeapp.com/api/mimuai.php?ask=${encodeURIComponent(formattedPrompt)}`);
+                let response = await fetch(`https://github.com/ClownMuskHackers/XmbxAi/tree/main/api/api.js?ask=${encodeURIComponent(formattedPrompt)}`);
                 let data = await response.json();
                 let aiResponse = data.response || "Sorry, I couldn't process your request.";
 
